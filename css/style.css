@@ -1,0 +1,172 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;;
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.header {
+    background: #282828;
+    padding: 6px 0;
+}
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.nav__product {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav__icons {
+    display: flex;
+    gap: 30px;
+}
+.nav__product-item {
+    color: #fff;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.banner {
+    background: url(../img/banner.png) no-repeat center/cover;
+    height: 90vh;                 
+}
+.banner__wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 38px;
+    color: #fff;
+}
+.banner__btn {
+    padding: 13px;
+    display: flex; 
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 0;
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.banner__btn-a {
+    color: #171718;
+}
+.banner__title {
+    font-family: 'ProstoOne-Regular', sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 75px;
+}
+.product {
+    background: #151515;
+    color: #fff;
+    padding: 50px 0 80px 0;
+}
+.product__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.product__item-p {
+    max-width: 538px;
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+}
+.product__item-p_double {
+    max-width: 333px;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.product__item-p_double2 {
+    max-width: 333px;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.product__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product__item-line {
+    width: 61px;
+}
+.iphone {
+    background: #151515;
+}
+.iphone__item {
+    background: #fff;
+    max-width: 255px;
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+    padding: 15px 0;
+}
+.iphone__wrap {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    padding-bottom: 55px;
+}
+.iphone__item-h {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.iphone__item-p {
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+.iphone__item-btn{
+    width: 161px;
+    height: 34px;
+    border: 0;
+    background: #151515;
+    color: #fff;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.footer {
+    background: #282828;
+    padding: 80px 0;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__nav-pay {
+    display: flex;
+    gap: 30px;
+}

@@ -1,0 +1,72 @@
+@media screen and (max-width:1200px) {
+    .header__nav{
+        justify-content: center;
+        gap: 150px; 
+    }
+    .banner__title{
+        font-size: 70px;
+    }
+    .banner__btn{
+        font-size: 15px;
+        padding: 10px;
+    }
+    .product__item{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .product__item-p{
+        font-size: 18px;
+    }
+    .product__item-p_double{
+        font-size: 18px;
+    }
+    .product__item-p_double2{
+        font-size: 18px;
+    }
+    .iphone__wrap{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer__nav{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+@media screen and (max-width:750px) {
+    .header__nav{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .banner__title{
+        font-size: 50px;
+    }
+    .banner__btn{
+        font-size: 12px;
+        padding: 8px;
+    }
+    .product__item-p{
+        font-size: 15px;
+    }
+    .product__item-p_double{
+        font-size: 15px;
+    }
+    .product__item-p_double2{
+        font-size: 15px;
+    }
+    .bigpods{
+        width: 100%;
+    }
+}
+@media screen and (max-width:400px) {
+    .nav__product{
+        flex-direction: column;
+    }
+    .banner__title{
+        font-size: 30px;
+    }
+    .banner__btn{
+        font-size: 8px;
+        padding: 6px;
+    }
+}
